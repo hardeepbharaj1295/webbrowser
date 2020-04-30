@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.web.*?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <Pane prefHeight="975.0" prefWidth="1200.0">
+         <children>
+            <TextField fx:id="text" layoutX="25.0" layoutY="22.0" prefHeight="27.0" prefWidth="458.0" />
+            <Button layoutX="503.0" layoutY="22.0" mnemonicParsing="false" onAction="#search" text="Button" />
+            <WebView fx:id="web" layoutX="37.0" layoutY="63.0" prefHeight="893.0" prefWidth="1140.0" />
+         </children></Pane>
+   </children>
+</GridPane>
